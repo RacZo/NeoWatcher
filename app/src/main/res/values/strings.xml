@@ -1,0 +1,27 @@
+<resources>
+
+    <string name="app_name">Neo Watcher</string>
+
+    <string name="empty_pha">No Potential Hazardous Asteroids</string>
+    <string name="title_activity_visualizer">NEO Visualizer</string>
+
+    <string name="loading_neos">Loading&#8230;</string>
+
+    <string name="error_network">Network error. Make sure you have an Internet connection and try again.</string>
+
+    <string name="title_activity_neodetails">NEO Details</string>
+    <string name="title_activity_visualize_min_3d">Min3D Visualizer</string>
+
+    <string name="neo_name">Name:</string>
+    <string name="neo_orbital_period">Orbital Period:</string>
+    <string name="neo_date_last_observation">Last Observed:</string>
+    <string name="neo_perihelion_distance">Perihelion Distance:</string>
+    <string name="neo_arc_years">Arc Years:</string>
+    <string name="neo_numbers_of_observations">Number of Observations:</string>
+
+
+    <string name="button_visualize_min_3d">Visualize using Min 3D</string>
+
+
+
+</resources>
