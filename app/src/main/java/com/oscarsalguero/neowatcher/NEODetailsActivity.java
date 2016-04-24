@@ -67,8 +67,8 @@ public class NEODetailsActivity extends AppCompatActivity {
             textViewName.setText(name);
             setTitle(name + " Details");
             textViewLastObserved.setText(String.valueOf(mPHA.getDateOfLastObservation()));
-            textViewOrbitalPeriod.setText(String.valueOf(mPHA.getOrbitalPeriod()));
-            textViewPerihelionDistance.setText(String.valueOf(mPHA.getPerihelionDistance()));
+            textViewOrbitalPeriod.setText(String.valueOf(mPHA.getOrbitalPeriod()) + " Years");
+            textViewPerihelionDistance.setText(String.valueOf(mPHA.getPerihelionDistance()) + " AU");
             textViewArcYears.setText(mPHA.getArcYears());
             textViewNumberOfObservations.setText(String.valueOf(mPHA.getNumberOfObservations()));
 
