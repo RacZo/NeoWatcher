@@ -81,6 +81,7 @@ public class VisualizeMin3DActivity extends RendererActivity {
 
 
         // Add PHA as a child of the Sun
+        // TODO Use PHA parameters to plot orbit
         _pha = new Sphere(0.1f, 20, 11, true, true, false);
         _pha.position().x = 8.0f;
         _pha.rotation().x = 1;
